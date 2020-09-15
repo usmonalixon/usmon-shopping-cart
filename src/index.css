@@ -1,31 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-html{
+html {
   font-size: 62.5%;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
-body , #root{
+body,
+#root {
   height: 100vh;
   margin: 0;
 }
-body,input,select,button,textarea{
-  font-family: Montserrat, Arial, Helvetica, sans-serif ;
+body,
+input,
+select,
+button,
+textarea {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
 }
-.grid-container{
+
+.grid-container {
   display: grid;
-  grid-template-areas: "header" "main" "footer";
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
   grid-template-rows: 5rem 1fr 5rem;
   grid-template-columns: 1fr;
   height: 100%;
 }
-a{
+a {
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: #ff8000;
 }
-header{
+header {
   grid-area: header;
   background-color: #203040;
   color: #ffffff;
@@ -33,14 +42,14 @@ header{
   align-items: center;
   padding: 0.5rem;
 }
-header a{
+header a {
   color: #ffffff;
   text-decoration: none;
 }
-main{
+main {
   grid-area: main;
 }
-footer{
+footer {
   grid-area: footer;
   background-color: #203040;
   color: #ffffff;
@@ -49,14 +58,14 @@ footer{
   align-items: center;
 }
 
-.content{
+.content {
   display: flex;
   flex-wrap: wrap;
 }
-.main{
+.main {
   flex: 3 60rem;
 }
-.sidebar{
+.sidebar {
   flex: 1 20rem;
 }
 
@@ -109,4 +118,15 @@ footer{
 }
 .button.primary {
   background-color: #f0c040;
+}
+/* filter */
+.filter{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+.filter div{
+  flex: 1;
 }
