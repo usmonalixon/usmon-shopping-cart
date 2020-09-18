@@ -1,45 +1,3 @@
-# Node.JS
-
-# Create Products Backend
-Install nodemon globally
-Add server.js
-Install express body-parser mongoose shortid
-Install MongoDB
-app = express()
-app.use(bodyParser.json())
-mongoose.connect()
-create Product model
-app.post("/api.products")
-Postman send post request
-route.get("/api/products")
-route.delete("/api/products/:id")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -87,7 +45,47 @@ check products list
 commit and publish
 send pull request and merge
 update spreadsheet
-Add Redux To Filter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Add Redux To Filter
 Updte task and branch
 types.js
 create FILTER_PRODUCTS_BY_SIZE
@@ -108,7 +106,16 @@ App.js
 remove Filter props
 check result
 update task and branch
-Add Redux To Cart
+
+
+
+
+
+
+
+
+
+# Add Redux To Cart
 Updte task and branch
 types.js
 create ADD_TO_CART
