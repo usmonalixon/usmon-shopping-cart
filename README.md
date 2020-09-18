@@ -1,90 +1,4 @@
 
-
-
-
-
-
-
-
-# Redux
-
-# Add Redux
-what is redux (diagram)
-update task on spreadsheet
-create branch add-redux-products
-npm install redux react-redux redux-thunk
-create types
-types.js
-define FETCH_PRODUCTS
-actions/productActions.js
-declare fetchProducts
-create reducers
-reducers/productReducers.js
-define case FETCH_PRODUCTS
-create store
-store.js
-import redux
-set initial state
-define initialState
-create store
-import productReducers
-combine reducers
-Use store
-App.js
-import store
-wrap all in Provider
-connect products
-components/Products.js
-connect to store
-import fetchProducts
-fetch products on did mount
-package.json
-set proxy to http://127.0.0.1:5000
-npm run server
-check products list
-commit and publish
-send pull request and merge
-update spreadsheet
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Add Redux To Filter
 Updte task and branch
 types.js
@@ -115,7 +29,22 @@ update task and branch
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Add Redux To Cart
+
 Updte task and branch
 types.js
 create ADD_TO_CART
