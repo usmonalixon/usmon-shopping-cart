@@ -1,48 +1,4 @@
 
-# Add Redux To Filter
-Updte task and branch
-types.js
-create FILTER_PRODUCTS_BY_SIZE
-create ORDER_PRODUCTS_BY_PRICE
-actions/productActions.js
-create filterProducts
-move app.js filterProducts logic here
-create sortProducts
-move app.js filterProducts logic here
-reducers/productReducers.js
-case FILTER_PRODUCTS_BY_SIZE
-case ORDER_PRODUCTS_BY_PRICE
-Filter.js
-connect props: size, sort, items and filteredItems
-connect actions: filterProducts and sortProducts
-show loading if no filteredProducts
-App.js
-remove Filter props
-check result
-update task and branch
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Add Redux To Cart
 
 Updte task and branch
