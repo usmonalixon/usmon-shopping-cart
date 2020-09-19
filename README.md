@@ -1,29 +1,3 @@
-
-# Add Redux To Cart
-
-Updte task and branch
-types.js
-create ADD_TO_CART
-create REMOVE_FROM_CART
-actions/cartActions.js
-create addToCart
-create removeFromCart
-reducers/cartReducers.js
-case ADD_TO_CART
-case REMOVE_FROM_CART
-Cart.js
-connect props: cartItems
-connect actions: removeFromCart
-Product.js
-add action addToCart
-App.js
-remove Cart props
-store.js
-set initial cartItems to localStorage
-check result
-update task and branch
-Advanced Topics
-
 # Create Order
 Backend
 server.js
