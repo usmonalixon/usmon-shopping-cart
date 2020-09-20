@@ -1,31 +1,4 @@
-# Create Order
-Backend
-server.js
-create order modal
-get /api/orders
-post /api/orders
-delete /api/orders/:id
-Frontend
-create types
-types.js
-CLEAR_ORDER, CLEAR_CART, CREATE_ORDER
-create actions
-actions/orderActions.js
-createOrder(order)
-clearOrder()
-create reducers
-reducers/orderReducers.js
-case CREATE_ORDER
-case CLEAR_ORDER
-Update Cart Component
-components/Cart.js
-connect order, createOrder, clearOrder
-form onSubmit={this.createOrder}
-createOrder() this.props.createOrder(order)
-closeModal() this.props.clearOrder()
-render()
-const { cartItems, order } = this.props;
-{order && (}
+
 Manage Orders
 Add new page
 Install react-router-dom
